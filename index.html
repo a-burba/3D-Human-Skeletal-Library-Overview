@@ -3,68 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <title>3D Human Skeletal Library Project Overview</title>
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
-
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,24 +12,20 @@
   <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
+  <link rel="icon" type="image/x-icon" href="https://washu.edu/app/themes/antipasto/assets/img/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="https://washu.edu/app/themes/antipasto/assets/img/favicon/apple-touch-icon.png">
+
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
+
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -97,10 +33,10 @@
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
+
   <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -108,413 +44,285 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
+
 </head>
 <body>
 
 
   <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+  <button type="button" class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
 
-  <main id="main-content">
+<main id="main-content">
+
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
+
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Creating a Global, AI-Competent Image Library of Human Skeletal 3D Models</h1>
+
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+              <ol class="author-category">Principal Investigators:
+                <li class="author-block">Sarah Baitzel,</li>
+                <li class="author-block">Cody Prang</li>
+              </ol>
+              <ol class="author-category">Student Developers:
+                <li class="author-block">Ayla Burba,</li>
+                <li class="author-block">Natalia Jamula</li>
+              </ol>
+              <ol class="author-category">Design Consultant:
+                <li class="author-block">Tejas Garg</li>
+              </ol>
+              <ol class="author-category">Support Staff:
+                <li class="author-block">Avianna Wooten (Technical Lead),</li>
+                <li class="author-block">Sourabh Sharma (Project Manager),</li>
+                <li class="author-block">Harper Tooch (3D Consultant)</li>
+              </ol>
             </div>
+
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
 
 
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <!-- TODO: Replace with your teaser video -->
+        <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+          <!-- TODO: Add your video file path here -->
+          <source src="static/videos/banner_video.mp4" type="video/mp4">
+        </video>
+        <!-- TODO: Replace with your video description -->
+        <h2 class="subtitle has-text-centered">
+          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
+        </h2>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
     </div>
-</section>
-<!--End BibTex citation -->
+  </section>
+  <!-- End teaser video -->
 
 
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              We are creating a searchable online library of high-resolution 3D models of ethically sourced human skeletal remains to improve the sharing and generation of data between anthropologists and develop an accessible way for researchers and students to find and analyze specimens in virtual space using digital tools. Unlike many physical skeletal collections assembled from marginalized or institutional communities without proper consent, our library is comprised of individuals who donated their bodies to scientific research. Access to skeletal data has historically been limited to major universities and those with the right professional connections and resources to travel long distances to these physical collections. By circumventing these barriers, our project and its integration with automated measurement extraction and supervised machine learning models for biological feature classification will help advance scientific understanding of human skeletal variation and allow for the creation of new models and theories in the fields of human evolution, biological anthropology, archaeology, forensics, and biomedical research.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
+
+  <!-- Background -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Background</h2>
+          <div class="content has-text-justified">
+            <p>
+              Research in anthropology has traditionally relied on access to physical specimens of human skeletons to study human variation through time and space. Accessing collections and collecting data are both time consuming and costly, limiting the study of human variation for researchers, and especially for students. Researchers must travel vast distances to access specimens and may only have access to those specimens for a brief period of time. Students are often even more limited because their educational quality depends on whether their institution can afford to pay thousands of dollars for skeletal models to teach students the nuances of the human skeleton. Prior to 2020, many teaching collections in the United States (and other countries with colonial histories) were unethically sourced and have rightfully been removed from curriculums, but their absence means that students cannot develop practical experience, preventing them from conducting certain types of research for their careers where a more profound expertise is required. WashU has discontinued use of its own teaching collection, part of the Terry Collection, and our project will allow students to gain the experience they need in an ethical manner, with the generous contribution of individuals who donated their remains for scientific research and learning. Providing students of all backgrounds a way to learn about anthropology will allow for more diverse viewpoints and new breakthroughs in our understanding of human evolution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End background -->
+
+
+  <!-- Features -->
+  <!-- Image carousel -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 is-centered has-text-centered">Features</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+
+          <div class="item">
+            <img src="static/images/interactive_skeletal_viewer.png" alt="Interactive skeletal viewer" loading="lazy">
+            <h2 class="subtitle has-text-centered">
+              Interactive 3D Skeletal Model
+            </h2>
+          </div>
+
+          <div class="item">
+            <img src="static/images/search_form.png" alt="Search filter layout and CSV export" loading="lazy">
+            <h2 class="subtitle has-text-centered">
+              Organized Search Filters and CSV Export
+            </h2>
+          </div>
+
+          <div class="item">
+            <img src="static/images/bone_search.png" alt="Search results for 'Appendicular Skeleton'" loading="lazy">
+            <h2 class="subtitle has-text-centered">
+              Supports Categorical Searches
+            </h2>
+          </div>
+
+          <div class="item">
+            <img src="static/images/individual_search.png" alt="Search results for individuals" loading="lazy">
+            <h2 class="subtitle has-text-centered">
+              Can Search for Both Individuals and Bones
+            </h2>
+          </div>
+
+          <div class="item">
+            <img src="static/images/automated_measurement.png" alt="Saved collection of bones with automated measurement extraction" loading="lazy">
+            <h2 class="subtitle has-text-centered">
+              Can Save Bones of Interest and Run Automated Measurement Extraction
+            </h2>
+          </div>
+
+          <div class="item">
+            <img src="static/images/bone-detail.png" alt="In-browser 3D viewer of a bone" loading="lazy">
+            <h2 class="subtitle has-text-centered">
+              MorphoSource's 3D Viewer with Analysis Tools
+            </h2>
+          </div>
 
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
+  <!-- End image carousel -->
+  <!-- End Features -->
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-    <!-- End of Statcounter Code -->
+  <!-- Broader Impact -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Broader Impact</h2>
+          <div class="content has-text-justified">
+            <p>
+              <b>Researchers: </b>
+              The project's website and AI tools facilitate sharing and using data among a global community of researchers who are interested in human variation through time and space, including human evolution and ancestry studies, health and illness in past and present populations, and victim identification in forensic contexts. The trajectory of this project points to a time where users, after receiving permission, can upload their bone scans and have our classification algorithms estimate features. This technology would have significant forensic and medical implications. Forensic anthropologists examine skeletal remains from criminal investigations, missing persons cases, and disaster scenarios where they need to build a profile including features like age and sex. Given the labor cost and specialized expertise required for these assessments, they are not always possible. Having a validated web accessible tool to supplement these assessments when resources are low could significantly improve identification processes. We envision researchers or institutions who steward scans of ethically sourced human remains as the main data contributors.
+            </p>
+            <p>
+              <b>Data Sharing: </b>
+              In collaboration with MorphoSource, our project provides an open-access platform to upload and share 3D models and their metadata. Data sharing is only slowly becoming a standard in the field of anthropology as major external grant agencies require researchers to share their data through open-access repositories. Traditionally, researchers would access collections, collect visual and other data (metric, observational) that is stored on personal hard drives or data clouds and only shared upon request. This “proprietary” model of data “ownership” is no longer ethical or feasible in the 21st century. Our website encourages researchers to share their data with the understanding that contributions will be acknowledged in any research products that result from the data use. It also allows contributors to limit access and use of the data files (e.g., ability to download for reproduction).
+            </p>
+            <p>
+              <b>Ethics: </b>
+              Our data sharing agreements and guidelines require contributors to identify the type of consent or permission by which the data was obtained. We anticipate two types of data that can be shared ethically: images of human remains that have living consent or next-of-kin consent for research and educational purposes, as well as human remains from historical or archaeological collections that have been obtained with the appropriate permissions from governmental or community agencies. Information about consent/permitting is included in the metadata and users will be able to select data based on their own criteria.
+            </p>
+            <p>
+              <b>Usage: </b>
+              The website provides a search function that allows researchers to identify suitable bone elements using a series of specifically designed filters, create collections and conduct supervised machine learning (ML) analyses. No such portal exists at the moment, as digital human remains collections are either only accessible through traditional data sharing methods in direct conversation with the home institution, while data repositories that contain human remains 3D models only contain few specimens with limited metadata and no search/filter functions specific to the human skeleton and osteological research. Therefore, our project offers to save valuable research time for identifying and assembling suitable images for analyses. Our pilot also includes tools for supervised ML similar to those that are currently being developed by researchers around the world independently; by linking ML tools directly to the portal itself, we are creating a unique bridge between data and analytics that enables users of different skill levels to access and generate data.
+            </p>
+            <p>
+              <b>Global Scope: </b>
+              Human remains collections are traditionally homogenous (compared to global human variation) as they represent individuals from a single time or place. Although comparative research has been conducted, many of the existing models used as standards in human evolution and forensics, for example, are population specific and cannot easily be applied to other populations. A global data sharing platform such as the one designed by this project, will facilitate globally comparative research, allowing the creation of population-sensitive standards and new insights into phenotypical human variation.
+            </p>
 
-  </body>
-  </html>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End broader impact -->
+
+
+  <!-- Equity -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Equity</h2>
+          <div class="content has-text-justified">
+            <p>
+              The project is designed to invite researchers from around the world as users and contributors. As long as data contributions remain within the no-cost limits on data uploads on MorphoSource, contributors do not incur any costs. Data collection, analysis, and publication continues to follow neo-Colonial extractive patterns where researchers from the global North travel to the global South to conduct (permitted) research, often excluding local researchers and institutions from the down-the-line benefits of their work. With this tool, researchers could share their data publicly (or restrict public usage if desired by the institution), but more importantly, the AI tools available through our website would be accessible to interested researchers anywhere in the world thus distributing the potential uses and benefits more equally than before.
+            </p>
+            <p>
+              Students are a critical audience in the design and impact of this project. Medical, anatomy, and forensic anthropology students rarely get hands on time with skeleton remains, but this digital library can allow students to easily search for specific bones across a wide variety of criteria and explore 3D models in close detail without time, travel, or shipping concerns. Once the classification tool is complete, students can also benefit from testing their own judgements against the algorithm's. Forensic science and bioarcheology courses could integrate this resource into their curriculum, scaling up the scope of a collection that otherwise only researchers at a handful of universities would have access to. With the retirement of skeletal collections for teaching in 2020/21, there is now a generation of U.S. undergraduate and graduate students whose training in human osteology was not hands-on. This places the next generation of researchers in human evolution, forensics, archaeology, and related fields at a distinct disadvantage compared to our global peers.
+            </p>
+            <p>
+              Our project intends to mitigate this disadvantage and enhance students' education in several ways:
+            </p>
+            <ol>
+              <li>
+                <b>Printable 3D Models: </b>
+                Data sharing will allow students and instructors at institutions of higher educations to access 3D scans suitable for 3D printing along with metadata that will be useful for instructional purposes (and has not been available traditionally with bone casts or other collections). Instructors will be able to tailor their teaching collections according to their specific needs or interests in human variation at the cost of printing specimens (rather than purchasing pricy bone casts or acquiring scanning equipment and access to donor collections).
+              </li>
+              <li>
+                <b>Digital teaching tools: </b>
+                Teaching osteology-related methods has, until recently, relied on the use of physical specimens to extract quantitative and qualitative data using observation and measurements. The next generation of research at the graduate and faculty-level, however, is already deeply involved with digital analysis tools. Our portal will provide open source data and basic tools for student learning which instructors can easily incorporate into more traditional curriculum of osteological training. Because students will have access to a primary data set much larger than typical teaching collections, potential understanding into global human variation and evolutionary processes at early career stages is much greater and does not require post-graduate access to collections.
+              </li>
+              <li>
+                <b>Ethical awareness: </b>
+                Student users of our portal will be asked to agree to user terms that inform them of the ethical implications of human remains research, the different types of consent and permissions that are associated with the digital collections, and the required acknowledgements in any kind of publication resulting from the research (even at the level of course work). This step encourages conversation and discussion among next-generation researchers about the ethical challenges of human remains research.
+              </li>
+            </ol>
+            <p>
+              At WashU, Human Osteology used to be offered in the Anthropology Department and was a service course geared towards Pre-Med students in Anthropology and Biology. This course has not been offered since 2021, but will be offered again in Fall 2027, taught by one of the project co-PIs (Baitzel or Prang) who will use the website and associated data as a teaching tool for bone identification and advanced analytical methods in biological anthropology and bioarchaeology. We envision similar uses of our website by peer institutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End equity section -->
+
+
+  <!-- Next steps -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Next Steps</h2>
+          <div class="content has-text-justified">
+            <ol>
+              <li>Populate MorphoSource database with 3D models</li>
+              <li>Build out collaborations with researchers and institutions</li>
+              <li>Establish brand identity and publish official use/ethics guidelines</li>
+              <li>Implement additional site features</li>
+              <li>Expand automated measurement extraction and landmark placement to new bone types</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End next steps -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</main>
+</body>
+</html>
