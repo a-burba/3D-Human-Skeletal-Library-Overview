@@ -127,7 +127,7 @@ $(document).ready(function() {
 		slidesToShow: 1,
 		loop: true,
 		infinite: true,
-		autoplay: true,
+		// autoplay: true,
 		autoplaySpeed: 5000,
     }
 
@@ -137,6 +137,6 @@ $(document).ready(function() {
     bulmaSlider.attach();
     
     // Setup video autoplay for carousel
-    setupVideoCarouselAutoplay();
+    // setupVideoCarouselAutoplay();
 
 })
